@@ -1,7 +1,11 @@
 {
   "LuaSnip": {
     "branch": "master",
-    "commit": "48a02259693cb7bbbd1092993406773d5ce14664"
+    "commit": "2737edc9e674e537dc0a97e3405658d57d2d31ed"
+  },
+  "catppuccin": {
+    "branch": "main",
+    "commit": "637d99e638bc6f1efedac582f6ccab08badac0c6"
   },
   "cmp-nvim-lsp": {
     "branch": "main",
@@ -83,6 +87,10 @@
     "branch": "master",
     "commit": "19d257cf889f79f4022163c3fbb5e08639077bd8"
   },
+  "nvim-window-picker": {
+    "branch": "main",
+    "commit": "41cfaa428577c53552200a404ae9b3a0b5719706"
+  },
   "plenary.nvim": {
     "branch": "master",
     "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d"
@@ -103,17 +111,13 @@
     "branch": "main",
     "commit": "ae0a2afb47cf7395dc400e5dc4e05274bf4fb9e0"
   },
-  "tokyonight.nvim": {
-    "branch": "main",
-    "commit": "ce91ba480070c95f40753e4663e32b4632ac6db3"
-  },
-  "trouble.nvim": {
-    "branch": "main",
-    "commit": "3dc00c0447c016cd43e03054c3d49436a1f2076d"
-  },
   "vim-sleuth": {
     "branch": "master",
     "commit": "be69bff86754b1aa5adcbb527d7fcd1635a84080"
+  },
+  "vim-tmux-navigator": {
+    "branch": "master",
+    "commit": "424b5caa154bff34dc258ee53cec5a8e36cf7ea8"
   },
   "virtcolumn.nvim": {
     "branch": "main",
