@@ -14,6 +14,13 @@ return {
         topdelete = { text = '‾' },
         changedelete = { text = '~' },
       },
+      current_line_blame = true,
+      current_line_blame_opts = {
+        virt_text = true,
+        virt_text_pos = 'eol',
+        virt_text_priority = 100,
+        delay = 250,
+      },
       on_attach = function(bufnr)
         local gitsigns = require 'gitsigns'
 
