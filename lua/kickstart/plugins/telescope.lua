@@ -63,6 +63,12 @@ return {
               ['_'] = require('telescope.actions').select_horizontal,
             },
           },
+          path_display = {
+            'truncate',
+            filename_first = {
+              reverse_directories = false,
+            },
+          },
         },
         -- pickers = {}
         extensions = {
