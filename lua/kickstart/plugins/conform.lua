@@ -18,7 +18,7 @@ return {
       format_on_save = function(bufnr)
         -- Enable "format_on_save lsp_fallback" for languages.
         -- You can add additional languages here or disable it for the disabled ones.
-        local enable_filetypes = { python = true }
+        local enable_filetypes = {}
         local lsp_format_opt
         if enable_filetypes[vim.bo[bufnr].filetype] then
           lsp_format_opt = 'fallback'
