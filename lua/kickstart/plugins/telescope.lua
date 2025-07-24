@@ -78,6 +78,12 @@ return {
               '.git/',
             },
           },
+          live_grep = {
+            no_ignore = true,
+            additional_args = function(_)
+              return { '--hidden' }
+            end,
+          },
         },
         extensions = {
           ['ui-select'] = {

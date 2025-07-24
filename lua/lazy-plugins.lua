@@ -24,6 +24,8 @@ require('lazy').setup({
 
   require 'kickstart.plugins.autopairs',
 
+  require 'kickstart.plugins.mini',
+
   { import = 'custom.plugins' },
 }, {
   ui = {
